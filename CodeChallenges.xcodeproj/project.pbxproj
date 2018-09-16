@@ -7,48 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DF557DB214E47C000274E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF557DA214E47C000274E4D /* AppDelegate.swift */; };
-		3DF557DD214E47C000274E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF557DC214E47C000274E4D /* ViewController.swift */; };
-		3DF557E0214E47C000274E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF557DE214E47C000274E4D /* Main.storyboard */; };
-		3DF557E3214E47C000274E4D /* CodeChallenges.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DF557E1214E47C000274E4D /* CodeChallenges.xcdatamodeld */; };
-		3DF557E5214E47C400274E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF557E4214E47C400274E4D /* Assets.xcassets */; };
-		3DF557E8214E47C400274E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF557E6214E47C400274E4D /* LaunchScreen.storyboard */; };
-		3DF557F3214E47C400274E4D /* CodeChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF557F2214E47C400274E4D /* CodeChallengesTests.swift */; };
+		3D4F4532214E4918005FB234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F4531214E4918005FB234 /* AppDelegate.swift */; };
+		3D4F4534214E4918005FB234 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F4533214E4918005FB234 /* ViewController.swift */; };
+		3D4F4537214E4918005FB234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F4535214E4918005FB234 /* Main.storyboard */; };
+		3D4F4539214E4919005FB234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F4538214E4919005FB234 /* Assets.xcassets */; };
+		3D4F453C214E4919005FB234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F453A214E4919005FB234 /* LaunchScreen.storyboard */; };
+		3D4F4552214E49BE005FB234 /* Tantangan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F4551214E49BE005FB234 /* Tantangan.swift */; };
+		3D4F4554214E49D7005FB234 /* TestTantangan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F4553214E49D7005FB234 /* TestTantangan.swift */; };
+		3D4F4556214E4B3F005FB234 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F4555214E4B3E005FB234 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3DF557EF214E47C400274E4D /* PBXContainerItemProxy */ = {
+		3D4F4543214E4919005FB234 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3DF557CF214E47C000274E4D /* Project object */;
+			containerPortal = 3D4F4526214E4917005FB234 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3DF557D6214E47C000274E4D;
+			remoteGlobalIDString = 3D4F452D214E4918005FB234;
 			remoteInfo = CodeChallenges;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3DF557D7214E47C000274E4D /* CodeChallenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChallenges.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DF557DA214E47C000274E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DF557DC214E47C000274E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3DF557DF214E47C000274E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3DF557E2214E47C000274E4D /* CodeChallenges.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodeChallenges.xcdatamodel; sourceTree = "<group>"; };
-		3DF557E4214E47C400274E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3DF557E7214E47C400274E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3DF557E9214E47C400274E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DF557EE214E47C400274E4D /* CodeChallengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeChallengesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DF557F2214E47C400274E4D /* CodeChallengesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeChallengesTests.swift; sourceTree = "<group>"; };
-		3DF557F4214E47C400274E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4F452E214E4918005FB234 /* CodeChallenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChallenges.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4F4531214E4918005FB234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D4F4533214E4918005FB234 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D4F4536214E4918005FB234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D4F4538214E4919005FB234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D4F453B214E4919005FB234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D4F453D214E4919005FB234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4F4542214E4919005FB234 /* CodeChallengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeChallengesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4F4548214E4919005FB234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4F4551214E49BE005FB234 /* Tantangan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tantangan.swift; sourceTree = "<group>"; };
+		3D4F4553214E49D7005FB234 /* TestTantangan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTantangan.swift; sourceTree = "<group>"; };
+		3D4F4555214E4B3E005FB234 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3DF557D4214E47C000274E4D /* Frameworks */ = {
+		3D4F452B214E4918005FB234 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DF557EB214E47C400274E4D /* Frameworks */ = {
+		3D4F453F214E4919005FB234 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,43 +60,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3DF557CE214E47C000274E4D = {
+		3D4F4525214E4917005FB234 = {
 			isa = PBXGroup;
 			children = (
-				3DF557D9214E47C000274E4D /* CodeChallenges */,
-				3DF557F1214E47C400274E4D /* CodeChallengesTests */,
-				3DF557D8214E47C000274E4D /* Products */,
+				3D4F4555214E4B3E005FB234 /* README.md */,
+				3D4F4530214E4918005FB234 /* CodeChallenges */,
+				3D4F4545214E4919005FB234 /* CodeChallengesTests */,
+				3D4F452F214E4918005FB234 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3DF557D8214E47C000274E4D /* Products */ = {
+		3D4F452F214E4918005FB234 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3DF557D7214E47C000274E4D /* CodeChallenges.app */,
-				3DF557EE214E47C400274E4D /* CodeChallengesTests.xctest */,
+				3D4F452E214E4918005FB234 /* CodeChallenges.app */,
+				3D4F4542214E4919005FB234 /* CodeChallengesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DF557D9214E47C000274E4D /* CodeChallenges */ = {
+		3D4F4530214E4918005FB234 /* CodeChallenges */ = {
 			isa = PBXGroup;
 			children = (
-				3DF557DA214E47C000274E4D /* AppDelegate.swift */,
-				3DF557DC214E47C000274E4D /* ViewController.swift */,
-				3DF557DE214E47C000274E4D /* Main.storyboard */,
-				3DF557E4214E47C400274E4D /* Assets.xcassets */,
-				3DF557E6214E47C400274E4D /* LaunchScreen.storyboard */,
-				3DF557E9214E47C400274E4D /* Info.plist */,
-				3DF557E1214E47C000274E4D /* CodeChallenges.xcdatamodeld */,
+				3D4F4531214E4918005FB234 /* AppDelegate.swift */,
+				3D4F4533214E4918005FB234 /* ViewController.swift */,
+				3D4F4551214E49BE005FB234 /* Tantangan.swift */,
+				3D4F4535214E4918005FB234 /* Main.storyboard */,
+				3D4F4538214E4919005FB234 /* Assets.xcassets */,
+				3D4F453A214E4919005FB234 /* LaunchScreen.storyboard */,
+				3D4F453D214E4919005FB234 /* Info.plist */,
 			);
 			path = CodeChallenges;
 			sourceTree = "<group>";
 		};
-		3DF557F1214E47C400274E4D /* CodeChallengesTests */ = {
+		3D4F4545214E4919005FB234 /* CodeChallengesTests */ = {
 			isa = PBXGroup;
 			children = (
-				3DF557F2214E47C400274E4D /* CodeChallengesTests.swift */,
-				3DF557F4214E47C400274E4D /* Info.plist */,
+				3D4F4553214E49D7005FB234 /* TestTantangan.swift */,
+				3D4F4548214E4919005FB234 /* Info.plist */,
 			);
 			path = CodeChallengesTests;
 			sourceTree = "<group>";
@@ -102,13 +105,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3DF557D6214E47C000274E4D /* CodeChallenges */ = {
+		3D4F452D214E4918005FB234 /* CodeChallenges */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DF557F7214E47C400274E4D /* Build configuration list for PBXNativeTarget "CodeChallenges" */;
+			buildConfigurationList = 3D4F454B214E4919005FB234 /* Build configuration list for PBXNativeTarget "CodeChallenges" */;
 			buildPhases = (
-				3DF557D3214E47C000274E4D /* Sources */,
-				3DF557D4214E47C000274E4D /* Frameworks */,
-				3DF557D5214E47C000274E4D /* Resources */,
+				3D4F452A214E4918005FB234 /* Sources */,
+				3D4F452B214E4918005FB234 /* Frameworks */,
+				3D4F452C214E4918005FB234 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -116,47 +119,47 @@
 			);
 			name = CodeChallenges;
 			productName = CodeChallenges;
-			productReference = 3DF557D7214E47C000274E4D /* CodeChallenges.app */;
+			productReference = 3D4F452E214E4918005FB234 /* CodeChallenges.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3DF557ED214E47C400274E4D /* CodeChallengesTests */ = {
+		3D4F4541214E4919005FB234 /* CodeChallengesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DF557FA214E47C400274E4D /* Build configuration list for PBXNativeTarget "CodeChallengesTests" */;
+			buildConfigurationList = 3D4F454E214E4919005FB234 /* Build configuration list for PBXNativeTarget "CodeChallengesTests" */;
 			buildPhases = (
-				3DF557EA214E47C400274E4D /* Sources */,
-				3DF557EB214E47C400274E4D /* Frameworks */,
-				3DF557EC214E47C400274E4D /* Resources */,
+				3D4F453E214E4919005FB234 /* Sources */,
+				3D4F453F214E4919005FB234 /* Frameworks */,
+				3D4F4540214E4919005FB234 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3DF557F0214E47C400274E4D /* PBXTargetDependency */,
+				3D4F4544214E4919005FB234 /* PBXTargetDependency */,
 			);
 			name = CodeChallengesTests;
 			productName = CodeChallengesTests;
-			productReference = 3DF557EE214E47C400274E4D /* CodeChallengesTests.xctest */;
+			productReference = 3D4F4542214E4919005FB234 /* CodeChallengesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3DF557CF214E47C000274E4D /* Project object */ = {
+		3D4F4526214E4917005FB234 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Qiscus;
 				TargetAttributes = {
-					3DF557D6214E47C000274E4D = {
+					3D4F452D214E4918005FB234 = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					3DF557ED214E47C400274E4D = {
+					3D4F4541214E4919005FB234 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 3DF557D6214E47C000274E4D;
+						TestTargetID = 3D4F452D214E4918005FB234;
 					};
 				};
 			};
-			buildConfigurationList = 3DF557D2214E47C000274E4D /* Build configuration list for PBXProject "CodeChallenges" */;
+			buildConfigurationList = 3D4F4529214E4917005FB234 /* Build configuration list for PBXProject "CodeChallenges" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -164,29 +167,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 3DF557CE214E47C000274E4D;
-			productRefGroup = 3DF557D8214E47C000274E4D /* Products */;
+			mainGroup = 3D4F4525214E4917005FB234;
+			productRefGroup = 3D4F452F214E4918005FB234 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3DF557D6214E47C000274E4D /* CodeChallenges */,
-				3DF557ED214E47C400274E4D /* CodeChallengesTests */,
+				3D4F452D214E4918005FB234 /* CodeChallenges */,
+				3D4F4541214E4919005FB234 /* CodeChallengesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3DF557D5214E47C000274E4D /* Resources */ = {
+		3D4F452C214E4918005FB234 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF557E8214E47C400274E4D /* LaunchScreen.storyboard in Resources */,
-				3DF557E5214E47C400274E4D /* Assets.xcassets in Resources */,
-				3DF557E0214E47C000274E4D /* Main.storyboard in Resources */,
+				3D4F453C214E4919005FB234 /* LaunchScreen.storyboard in Resources */,
+				3D4F4539214E4919005FB234 /* Assets.xcassets in Resources */,
+				3D4F4556214E4B3F005FB234 /* README.md in Resources */,
+				3D4F4537214E4918005FB234 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DF557EC214E47C400274E4D /* Resources */ = {
+		3D4F4540214E4919005FB234 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -196,47 +200,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3DF557D3214E47C000274E4D /* Sources */ = {
+		3D4F452A214E4918005FB234 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF557DD214E47C000274E4D /* ViewController.swift in Sources */,
-				3DF557E3214E47C000274E4D /* CodeChallenges.xcdatamodeld in Sources */,
-				3DF557DB214E47C000274E4D /* AppDelegate.swift in Sources */,
+				3D4F4534214E4918005FB234 /* ViewController.swift in Sources */,
+				3D4F4552214E49BE005FB234 /* Tantangan.swift in Sources */,
+				3D4F4532214E4918005FB234 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DF557EA214E47C400274E4D /* Sources */ = {
+		3D4F453E214E4919005FB234 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF557F3214E47C400274E4D /* CodeChallengesTests.swift in Sources */,
+				3D4F4554214E49D7005FB234 /* TestTantangan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3DF557F0214E47C400274E4D /* PBXTargetDependency */ = {
+		3D4F4544214E4919005FB234 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3DF557D6214E47C000274E4D /* CodeChallenges */;
-			targetProxy = 3DF557EF214E47C400274E4D /* PBXContainerItemProxy */;
+			target = 3D4F452D214E4918005FB234 /* CodeChallenges */;
+			targetProxy = 3D4F4543214E4919005FB234 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3DF557DE214E47C000274E4D /* Main.storyboard */ = {
+		3D4F4535214E4918005FB234 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3DF557DF214E47C000274E4D /* Base */,
+				3D4F4536214E4918005FB234 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3DF557E6214E47C400274E4D /* LaunchScreen.storyboard */ = {
+		3D4F453A214E4919005FB234 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3DF557E7214E47C400274E4D /* Base */,
+				3D4F453B214E4919005FB234 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -244,7 +248,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3DF557F5214E47C400274E4D /* Debug */ = {
+		3D4F4549214E4919005FB234 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		3DF557F6214E47C400274E4D /* Release */ = {
+		3D4F454A214E4919005FB234 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,45 +362,47 @@
 			};
 			name = Release;
 		};
-		3DF557F8214E47C400274E4D /* Debug */ = {
+		3D4F454C214E4919005FB234 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = QG8KA4P8TE;
 				INFOPLIST_FILE = CodeChallenges/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiscusdev.CodeChallenges;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c4e66a74-b52f-4300-ab2e-f2dd1359bc35";
+				PROVISIONING_PROFILE_SPECIFIER = QiscusDev;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3DF557F9214E47C400274E4D /* Release */ = {
+		3D4F454D214E4919005FB234 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = QG8KA4P8TE;
 				INFOPLIST_FILE = CodeChallenges/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiscusdev.CodeChallenges;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c4e66a74-b52f-4300-ab2e-f2dd1359bc35";
+				PROVISIONING_PROFILE_SPECIFIER = QiscusDev;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		3DF557FB214E47C400274E4D /* Debug */ = {
+		3D4F454F214E4919005FB234 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -417,7 +423,7 @@
 			};
 			name = Debug;
 		};
-		3DF557FC214E47C400274E4D /* Release */ = {
+		3D4F4550214E4919005FB234 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -441,47 +447,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DF557D2214E47C000274E4D /* Build configuration list for PBXProject "CodeChallenges" */ = {
+		3D4F4529214E4917005FB234 /* Build configuration list for PBXProject "CodeChallenges" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DF557F5214E47C400274E4D /* Debug */,
-				3DF557F6214E47C400274E4D /* Release */,
+				3D4F4549214E4919005FB234 /* Debug */,
+				3D4F454A214E4919005FB234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DF557F7214E47C400274E4D /* Build configuration list for PBXNativeTarget "CodeChallenges" */ = {
+		3D4F454B214E4919005FB234 /* Build configuration list for PBXNativeTarget "CodeChallenges" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DF557F8214E47C400274E4D /* Debug */,
-				3DF557F9214E47C400274E4D /* Release */,
+				3D4F454C214E4919005FB234 /* Debug */,
+				3D4F454D214E4919005FB234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DF557FA214E47C400274E4D /* Build configuration list for PBXNativeTarget "CodeChallengesTests" */ = {
+		3D4F454E214E4919005FB234 /* Build configuration list for PBXNativeTarget "CodeChallengesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DF557FB214E47C400274E4D /* Debug */,
-				3DF557FC214E47C400274E4D /* Release */,
+				3D4F454F214E4919005FB234 /* Debug */,
+				3D4F4550214E4919005FB234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3DF557E1214E47C000274E4D /* CodeChallenges.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3DF557E2214E47C000274E4D /* CodeChallenges.xcdatamodel */,
-			);
-			currentVersion = 3DF557E2214E47C000274E4D /* CodeChallenges.xcdatamodel */;
-			path = CodeChallenges.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 3DF557CF214E47C000274E4D /* Project object */;
+	rootObject = 3D4F4526214E4917005FB234 /* Project object */;
 }
